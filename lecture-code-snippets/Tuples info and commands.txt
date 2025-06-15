@@ -1,0 +1,96 @@
+Concatenate two lists
+
+myList1 = ['Dhoni', 'Virat', 'Rohit', 'Yuvraj'];
+myList2 = ['Chris Gayle', 'Carlos Brathwaite'];
+myNewList = myList1 + myList2;
+print(myNewList);
+----------------------------
+#Creating a Tuple
+#with Mixed Datatype
+Tuple1 = (5, 'Welcome', 7, 'CS')
+#\n and \t are escape sequences or backslash character constants
+print("\nTuple with Mixed Datatypes: ")
+print(Tuple1)
+	
+
+		
+ -------------------------------
+#Creating a Tuple
+#with nested tuples
+Tuple1 = (0, 1, 2, 3)
+Tuple2 = ('python', 'Language')
+Tuple3 = (Tuple1, Tuple2)
+print("\nTuple with nested tuples: ")
+print(Tuple3)
+---------------------------------
+#Creating a Tuple
+#with repetition
+Tuple1 = ('CompSc',) * 3
+print("\nTuple with repetition: ")
+print(Tuple1)
+---------------------------------
+#Creating a Tuple
+#with the use of loop
+Tuple1 = ('CS')
+n = 5
+print("\nTuple with a loop")
+for i in range(int(n)):
+    Tuple1 = (Tuple1,)
+    print(Tuple1)
+---------------------------------
+# Concatenation of tuples
+Tuple1 = (2, 0, 2, 2)
+Tuple2 = ('Vihaan', 'By', 'CS')
+ 
+Tuple3 = Tuple1 + Tuple2
+ 
+# Printing first Tuple
+print("Tuple 1: ")
+print(Tuple1)
+ 
+# Printing Second Tuple
+print("\nTuple2: ")
+print(Tuple2)
+ 
+# Printing Final Tuple
+print("\nTuples after Concatenation: ")
+print(Tuple3)
+------------------------------
+Print the second item in the tuple:
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
+
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[2:5])
+
+This example returns the items from the beginning to, but NOT included, "kiwi":
+
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[:4])
+--------------------------------------
+# Slicing of a Tuple
+ 
+# Slicing of a Tuple
+# with Numbers
+Tuple1 = tuple('VihaanBySYFYCS)
+ 
+# Removing First element
+print("Removal of First Element: ")
+print(Tuple1[1:])
+ 
+# Reversing the Tuple
+print("\nTuple after sequence of Element is reversed: ")
+print(Tuple1[::-1])
+ 
+# Printing elements of a Range
+print("\nPrinting elements between Range 4-9: ")
+print(Tuple1[4:9])
+----------------------------
+# Deleting a Tuple
+ 
+Tuple1 = (0, 1, 2, 3, 4)
+del Tuple1
+ 
+print(Tuple1)
+------------------------
